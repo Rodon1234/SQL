@@ -28,3 +28,5 @@ WHERE type = 'Printer'
 Задание: 3 
 Найдите номер модели, объем памяти и размеры экранов ПК-блокнотов, цена которых превышает 1000 дол.
 
+Select  model, ram, screen From Laptop 
+Where price > 1000
